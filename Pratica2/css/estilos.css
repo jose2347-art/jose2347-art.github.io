@@ -1,0 +1,36 @@
+body { 
+    overflow: hidden; /* No scrollear*/
+    background-color: rgba(248, 137, 96, 0.73);
+    background-repeat: no-repeat;/*No repetir la imagen de fondo*/
+    background-position: top center;/*para centrar la imagen,en este caso no hay*/
+    text-align: center; /*Alinear el Texto*/
+}
+
+h1 {color: antiquewhite;  
+     background-color: gray;
+     border-left: solid;
+     border-color:rgb(255, 23, 23);
+     border-width: 10px;
+     
+}
+
+img {width: 300px;
+        border-radius: 5px; /*redondear laterales*/
+        border-style:solid;
+        border-color: black;
+        border-width: 5px;
+        box-shadow: 10px 5px 5px; /*NO ENTIENDO LAS SOMBRAS*/
+
+}
+
+ul {list-style-type: none; /*Para eliminar los puntos*/
+
+}
+
+li {display: inline; /*eliminamos los saltos*/
+    border-style:solid;
+        border-color: black;
+        border-width: 2px;
+
+}
+
