@@ -1,0 +1,125 @@
+*{
+
+}
+
+body {text-align: center;
+    
+  
+}
+
+h1 {text-align: center;
+    border-bottom: solid black 5px;
+    background-color: #d6d5ff;
+    
+    
+
+}
+
+img {display: block;/*la imagen no tape texto sea un solido*/
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid 5px;
+    margin-right: 60px; /*margen por el lado derecho*/
+    
+  
+}
+
+ul {list-style-type: none; /*Para eliminar los puntos*/
+
+
+}
+
+li {display: inline; /*eliminamos los saltos*/
+    
+
+}
+
+p {box-shadow: 10px 5px 10px black;
+  
+}
+
+#header {
+
+  
+}
+
+#content{
+  
+}
+
+#text {width: 90%; /*que los parrafos rellenen el tanto por cien de la ventana*/
+  
+}
+
+#text p {border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    padding: 10px; /* Dar espacio dentro del párrafo, alrededor del texto */
+    text-indent: 40px;
+    margin: 0; /* para que no haya huecos entre párrafos */
+    background-color: #C3C3E5;
+
+
+  
+}
+
+#text p:first-child {
+    background-color: #F1F0FF;
+    border-top-left-radius:30px ; /*bordes redondeados alto*/
+    border-top-right-radius:30px ; /*bordes redondeados alto*/
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    
+
+}
+
+  
+
+#text p:last-child { 
+    border-bottom-left-radius: 30px; /*bordes redondeados bajo*/
+    border-bottom-right-radius: 30px; /*bordes redondeados bajo*/
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+
+
+}
+
+#menu {
+
+}
+
+#menu a{
+
+}
+
+
+#menu li{border-left: 5px solid red; /*una raya roja en cada marcador*/
+
+
+}
+
+#menu li a:hover{
+
+}
+
+#footer{border-top: solid black 5px;/*crear una linea*/
+    background-color: #443266;
+
+}
+
+#footer a{
+
+}
+
+#footer a:hover{
+
+}
+#image {
+
+}
+
+@media all and (max-width: 500px) {
+
+}
