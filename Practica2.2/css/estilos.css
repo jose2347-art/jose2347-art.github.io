@@ -20,7 +20,6 @@ img {display: block;/*la imagen no tape texto sea un solido*/
     margin-bottom: 10px;
     border: solid 5px;
     margin-right: 60px; /*margen por el lado derecho*/
-    
   
 }
 
@@ -55,7 +54,7 @@ p {box-shadow: 10px 5px 10px black;
     border-style: dashed;
     border-color: black;
     padding: 10px; /* Dar espacio dentro del párrafo, alrededor del texto */
-    text-indent: 40px;
+    text-indent: 40px;  /*Para las sanguias*/
     margin: 0; /* para que no haya huecos entre párrafos */
     background-color: #C3C3E5;
 
@@ -65,6 +64,7 @@ p {box-shadow: 10px 5px 10px black;
 
 #text p:first-child {
     background-color: #F1F0FF;
+    background-image: url(..images/fondoParrofo.png);/* NO CONSIGO PONER LA FOTO*/
     border-top-left-radius:30px ; /*bordes redondeados alto*/
     border-top-right-radius:30px ; /*bordes redondeados alto*/
     border-width: 5px;
@@ -100,7 +100,7 @@ p {box-shadow: 10px 5px 10px black;
 
 }
 
-#menu li a:hover{
+#menu li a:hover{color: red; /*cuando pasa el cuersor por arriba de los menus est aen rojo*/
 
 }
 
@@ -117,9 +117,11 @@ p {box-shadow: 10px 5px 10px black;
 
 }
 #image {
-
+text-align: left; /*mover la imagen a la derecha siendo el padre*/
 }
 
 @media all and (max-width: 500px) {
-
-}
+    img {border-color: red; /*borde rojo*/
+    width: 90%; /*tamaño de 90% */
+    text-align: center;} 
+}   /* media siempre va lo ultimo*/
