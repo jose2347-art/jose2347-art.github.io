@@ -64,7 +64,7 @@ p {box-shadow: 10px 5px 10px black;
 
 #text p:first-child {
     background-color: #F1F0FF;
-    background-image: url(..images/fondoParrofo.png);/* NO CONSIGO PONER LA FOTO*/
+    background-image: url("../images/fondoParrafo.png");/* NO CONSIGO PONER LA FOTO*/
     border-top-left-radius:30px ; /*bordes redondeados alto*/
     border-top-right-radius:30px ; /*bordes redondeados alto*/
     border-width: 5px;
@@ -100,7 +100,7 @@ p {box-shadow: 10px 5px 10px black;
 
 }
 
-#menu li a:hover{color: red; /*cuando pasa el cuersor por arriba de los menus est aen rojo*/
+#menu li a:hover{color: red; /*cuando pasa el cursor por arriba de los menus est aen rojo*/
 
 }
 
