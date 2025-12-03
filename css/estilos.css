@@ -1,1 +1,14 @@
 p { color: black; font-family: Verdana; }
+body {text-align: center;
+
+}
+
+header {}
+
+ul {
+    list-style-type: none; /*Para eliminar los puntos*/
+}
+
+li{
+    display: inline;
+}
