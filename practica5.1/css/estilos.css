@@ -46,9 +46,9 @@ p {
   Punto 1: Barra de menu siempre estara 
   */
   /* necesitas 3 instrucciones*/
-  /*1: */
-  /*2: */
-  /*3: */
+  /*1: */ position: fixed; 
+  /*2: */ top: 0;
+  /*3: */ width: 100%;
   text-align: center;  
   background-color: #097054;
   border: 1px solid #FF9900;
@@ -72,8 +72,8 @@ p {
   Punto 1: Los enlaces cambian de color de fondo y estan subrayados de color azul
   */
   /* necesitas 2 instrucciones*/
-  /*1: */
-  /*2: */
+  /*1: */text-decoration: underline blue;
+  /*2: */ background-color: #FF9900;
 }
 
 #footer{
@@ -81,9 +81,9 @@ p {
   Punto 6: Barra de pie de pagina siempre estara 
   */
   /* necesitas 3 instrucciones*/
-  /*1: */
-  /*2: */
-  /*3: */
+  /*1: */ position: fixed;
+  /*2: */ bottom: 0;
+  /*3: */ width: 100%;
   
   background-color: #097054;
   text-align: center;
@@ -112,9 +112,8 @@ p {
  /*
   Punto 2: La capa de las imagenes debe aparecer a la izquierda de la pantalla
  */
-
   /* necesitas 1 instruccion*/
-  /*1: */
+  /*1: */ float: left;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -125,7 +124,7 @@ p {
  */
 
   /* necesitas 1 instruccion*/
-  /*1: */
+  /*1: */ float: right;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -136,7 +135,7 @@ p {
  */
 
   /* necesitas 1 instruccion*/
-  /*1: */
+  /*1: */ clear: both; /*PARA ROMPER EL FLOAT*/
 }
 
 #imageToHide {
@@ -145,7 +144,7 @@ p {
  */
 
   /* necesitas 1 instruccion*/
-  /*1: */  
+  /*1: */  float: left;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -160,10 +159,10 @@ p {
  */
 
   /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
-  /*1: */  
-  /*2: */    
-  /*3: */    
-  /*4: */    
+  /*1: */  position: absolute;
+  /*2: */  top: 45%;
+  /*3: */  left: 25%;
+  /*4: */  right: 25%;
   border:2px solid red;
   background-color: white;
   margin-bottom: 5px;
@@ -177,8 +176,9 @@ p {
  */
 
   /* necesitas 2 instruccion*/
-  /*1: */  
-  /*2: */  
+  /*1: */  overflow-y: scroll;
+  /*2: */  overflow-x: hidden; /*he llegado a la conclusion de X e Y a base
+                                  de prueba y error porque le estaba dando uestas y no lo entendia*/
   
   height: 250px;
   text-align: justify;
@@ -198,7 +198,7 @@ p {
 }
 
 .button {
-  	background-color: #097054; /* Green */
+  	background-color: green; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -218,7 +218,7 @@ p {
     Punto 7.1: Barra de menu siempre estara 
     */
     /* necesitas 1 instruccion*/
-    /*1: */
+    /*1: */ float: none;
     text-align: center;
     padding-bottom: 5px;
   }
@@ -228,7 +228,7 @@ p {
     Punto 7.1: Barra de menu siempre estara 
     */
     /* necesitas 1 instruccion*/
-    /*1: */
+    /*1: */ float: none;
     text-align: center;
     clear: both;
   padding-bottom: 5px;
@@ -243,7 +243,7 @@ p {
     Punto 7.2: Barra de menu siempre estara 
     */
     /* necesitas 1 instruccion*/
-    /*1: */
+    /*1: */ float: none;
 
     text-align: center;
     margin-bottom: 40px;
@@ -264,6 +264,6 @@ p {
     /*
     Cambio el margen para que no lo tape el menu
     */
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
