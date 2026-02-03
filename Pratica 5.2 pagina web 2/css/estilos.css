@@ -1,0 +1,86 @@
+body{
+    background-color: #f0f0f0;
+    display: flex; 
+    justify-content: center; /*centarr en el centro*/
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.carta{
+    background-color: white;
+    width: 370px;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px;
+    overflow: hidden; /*para que no sobresalga*/
+    border: solid 2px;
+}
+
+.header{
+    background-color: rgba(228, 221, 221, 0.808);
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+.imagenPerfil{
+    
+    width: 100px;           /* Ancho fijo */
+    height: 100px;          /* Alto igual al ancho */
+    border-radius: 50%;    /* Hace el círculo */
+    overflow: hidden;      /* Corta las esquinas de la imagen de dentro */
+    margin-right: 20px;    /* Espacio con el texto */
+}
+.imagenPerfil img{
+    width: 120px;
+    height: 100px;
+}
+.info h2{
+    margin: 0;
+}
+.info p{
+    margin: 0;
+    padding-top: 20px;
+}
+.bio{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Estadisticas{
+    display: flex;
+    justify-content: space-around; /* separa entre ellos */
+    border-top: 1px solid #eee;
+    padding: 10px;
+}
+
+.grupo p{
+    margin: 0;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Botones{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.azul{
+    color: rgb(255, 255, 255);
+    flex: 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(3, 72, 150);
+    border-radius: 3px;
+    border: #eee;
+}
+.gris{
+    color: rgb(0, 0, 0);
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    border: #eee;
+}
